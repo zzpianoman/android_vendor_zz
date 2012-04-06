@@ -33,6 +33,10 @@ PRODUCT_COPY_FILES += \
 	vendor/zz/prebuilt/common/bin/sysinit:system/bin/sysinit \
 	vendor/zz/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner
 
+# userinit support
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
+
 # Telephony packages
 PRODUCT_PACKAGES += \
     messaging \

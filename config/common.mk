@@ -23,6 +23,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
 	ro.setupwizard.enterprise_mode=1
 
+# Enable ADB authentication
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+
 # init.d support
 PRODUCT_COPY_FILES += \
 	vendor/zz/prebuilt/common/bin/sysinit:system/bin/sysinit \

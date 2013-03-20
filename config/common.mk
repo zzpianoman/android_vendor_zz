@@ -23,8 +23,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
 	ro.setupwizard.enterprise_mode=1
 
+ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+endif
 
 # init.d support
 PRODUCT_COPY_FILES += \

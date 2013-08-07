@@ -28,4 +28,10 @@ PRODUCT_COPY_FILES += \
 	vendor/zz/prebuilt/common/bin/sysinit:system/bin/sysinit \
 	vendor/zz/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner
 
+# CM Hardware Abstraction Framework
+PRODUCT_PACKAGES += \
+    org.cyanogenmod.hardware \
+    org.cyanogenmod.hardware.xml
+
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/zz/overlay/common

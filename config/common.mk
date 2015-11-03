@@ -28,6 +28,12 @@ PRODUCT_COPY_FILES += \
 	vendor/zz/prebuilt/common/bin/sysinit:system/bin/sysinit \
 	vendor/zz/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner
 
+# Telephony packages
+PRODUCT_PACKAGES += \
+    messaging \
+    Stk \
+    CellBroadcastReceiver
+
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \

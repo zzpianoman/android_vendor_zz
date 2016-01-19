@@ -4,10 +4,6 @@
 PRODUCT_COPY_FILES += \
 	vendor/zz/prebuilt/common/etc/init.local.rc:root/init.zz.rc
 
-# Proprietary latinime lib needed for Keyboard swyping
-PRODUCT_COPY_FILES += \
-    vendor/zz/prebuilt/common/lib/libjni_latinime.so:system/lib/libjni_unbundled_latinimegoogle.so
-
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.google.clientidbase=android-google

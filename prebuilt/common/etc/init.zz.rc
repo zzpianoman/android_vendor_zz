@@ -1,0 +1,10 @@
+# init.d support
+
+on post-fs-data
+    start sysinit
+
+# sysinit (/system/etc/init.d)
+service sysinit /system/bin/sysinit
+    user root
+    oneshot
+    disabled

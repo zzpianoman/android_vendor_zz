@@ -2,7 +2,7 @@
 
 # zz init.rc
 PRODUCT_COPY_FILES += \
-	vendor/zz/prebuilt/common/etc/init.zz.rc:root/init.zz.rc
+	vendor/zz/prebuilt/common/etc/init.local.rc:root/init.zz.rc
 
 # Proprietary latinime lib needed for Keyboard swyping
 PRODUCT_COPY_FILES += \

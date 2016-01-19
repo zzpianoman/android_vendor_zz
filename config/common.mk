@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 
 # userinit support
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
+    vendor/zz/prebuilt/common/etc/init.d/90userinit:system/etc/init.d/90userinit
 
 # Telephony packages
 PRODUCT_PACKAGES += \

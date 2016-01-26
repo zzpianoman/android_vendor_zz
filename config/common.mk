@@ -44,5 +44,8 @@ PRODUCT_PACKAGES += \
     org.cyanogenmod.hardware \
     org.cyanogenmod.hardware.xml
 
+# Additional packages
+PRODUCT_PACKAGES += \
+    Terminal
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/zz/overlay/common

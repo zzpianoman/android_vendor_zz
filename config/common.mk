@@ -48,4 +48,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Terminal
 
+# Busybox
+WITH_BUSYBOX_LINKS := true
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/zz/overlay/common

@@ -53,4 +53,4 @@ WITH_BUSYBOX_LINKS := true
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/zz/overlay/common
 
--include vendor/cm/sepolicy/sepolicy.mk
+-include vendor/zz/sepolicy/sepolicy.mk
